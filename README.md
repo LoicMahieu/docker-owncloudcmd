@@ -5,6 +5,14 @@ Docker image for `owncloudcmd`: command line client that can be used to synchron
 
 ## Usage
 
+Pull the automated build
+
+```
+docker pull loicmahieu/docker-owncloudcmd
+```
+
+Run it
+
 ```
 docker run -rm -t owncloudcmd [OPTION] <source_dir> <server_url>
 ```
