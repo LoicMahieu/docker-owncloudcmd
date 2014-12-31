@@ -9,4 +9,6 @@ RUN           apt-get -y update
 RUN           apt-get install -y owncloud-client
 RUN           apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+VOLUME        ["/owncloud"]
+
 ENTRYPOINT    ["/usr/bin/owncloudcmd"]
