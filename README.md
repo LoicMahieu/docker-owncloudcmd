@@ -8,7 +8,7 @@ Docker image for `owncloudcmd`: command line client that can be used to synchron
 Pull the automated build
 
 ```
-docker pull loicmahieu/docker-owncloudcmd
+docker pull loicmahieu/owncloudcmd
 ```
 
 Run it
